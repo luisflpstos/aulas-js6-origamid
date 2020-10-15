@@ -21,27 +21,27 @@
 
 //  Declare uma variável contendo uma String
 
-var nome = 'Felipe';
+// var nome = 'Felipe';
 
-//  Declare uma variavel contendo um numero dentro de uma String
+// //  Declare uma variavel contendo um numero dentro de uma String
 
-var peso = '90kg';
+// // var peso = '90kg';
 
-//  Declare uma variavel com a sua idade
+// //  Declare uma variavel com a sua idade
 
-var idade = 29;
+// var idade = 29;
 
-//  Declare duas variaveis, uma com seu nome e outra com seu sobrenome e some as mesmas
+// //  Declare duas variaveis, uma com seu nome e outra com seu sobrenome e some as mesmas
 
-var sobrenome = 'Santos';
-var nomeCompleto = `${nome} ${sobrenome}`;
-console.log(nomeCompleto);
+// var sobrenome = 'Santos';
+// var nomeCompleto = `${nome} ${sobrenome}`;
+// console.log(nomeCompleto);
 
-// Coloque a seguinte frase em uma variavel: It's time
+// // Coloque a seguinte frase em uma variavel: It's time
 
-var time = "It's time";
+// var time = "It's time";
 
 
-// Verifique o tipo de variavel que contem seu nome
+// // Verifique o tipo de variavel que contem seu nome
 
-console.log(typeof nome);
+// console.log(typeof nome);
