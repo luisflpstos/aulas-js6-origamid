@@ -3,18 +3,38 @@
 // }
 
 
-function perimetroQuadrado(lado) {
-return lado * 4;
-}
+// function perimetroQuadrado(lado) {
+// return lado * 4;
+// }
 
-function nomeCompleto(nome, sobrenome) {
-  return `${nome} ${sobrenome}`;
-}
+// function nomeCompleto(nome, sobrenome) {
+//   return `${nome} ${sobrenome}`;
+// }
 
-function isEven (numero) {
-  const modulo = numero % 2;
-  if (modulo === 0) {
-    return true;
-} else {
-  return false;
-}
+// function isEven (numero) {
+//   const modulo = numero % 2;
+//   if (modulo === 0) {
+//     return true;
+//   } else {
+//     return false;
+// }
+
+
+// function tipoDeDado (dado) {
+//   return typeof dado;
+// }
+
+// addEventListener('scroll', function(){
+//   console.log('Felipe');
+// })
+
+
+
+
+
+
+
+
+
+
+

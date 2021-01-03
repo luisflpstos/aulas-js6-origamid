@@ -19,8 +19,6 @@
 
 // nomeie 3 propriedades ou métodos strings
 
-
-
 // nomeie 5 propriedades ou métodos de elementos do DOM
 
 // busque na web um objeto (método) capaz de interagir com o Clipboard
