@@ -12,5 +12,9 @@ function nomeCompleto(nome, sobrenome) {
 }
 
 function isEven (numero) {
-  return numero / 2;
+  const modulo = numero % 2;
+  if (modulo === 0) {
+    return true;
+} else {
+  return false;
 }
