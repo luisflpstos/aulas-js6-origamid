@@ -27,4 +27,30 @@
 
 
 
+
+//Retorne o rul da página atual utilizando o objetio window
+
+const urlPagina = window.location.href;
+console.log('Essa é a URL no momento', urlPagina);
+
+// Selecione o primeiro elemento da página que possua a classe ativo
+
+// const classSelected = document.getElementsByClassName('ativo');
+// console.log(classSelected);
+
+const classSelected2 = document.querySelector('.ativo');
+console.log(classSelected2);
+
+
+// retorne a linguagem do navegador
+
+const navigatorLanguage = window.navigator.language;
+console.log(navigatorLanguage);
+
+// retorne a largura da janela
+
+const windowsWidth = window.innerWidth;
+console.log(windowsWidth);
+
+
  
