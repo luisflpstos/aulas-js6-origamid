@@ -19,4 +19,5 @@ console.log(selectH2)
 
 // Selecione o último p do site
 
-
+const selectLastP = document.querySelectorAll('p');
+console.log(selectLastP[6]);
