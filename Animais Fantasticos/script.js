@@ -92,27 +92,43 @@
 
 
 
-// Verifique a distância da primeira imagem em relação ao topo da página
+// // Verifique a distância da primeira imagem em relação ao topo da página
 
-const firstImg = document.querySelector('img');
-const distImg = firstImg.offsetTop;
+// const firstImg = document.querySelector('img');
+// const distImg = firstImg.offsetTop;
  
-console.log(distImg);
+// console.log(distImg);
 
-// Retorne a soma da largura de todas as Imagens
+// // Retorne a soma da largura de todas as Imagens
 
-const allImgs = document.querySelectorAll('img');
+// const allImgs = document.querySelectorAll('img');
 
-let soma = 0;
+// let soma = 0;
 
-allImgs.forEach((allImgs) => {
-  soma += allImgs.naturalWidth;
-  console.log(soma);
-});
+// allImgs.forEach((allImgs) => { 
+//   soma += allImgs.naturalWidth;
+//   console.log(soma);
+// });
 
-// Verifique se os links da página possuem o mínimo recomendado para telas utilizadas com o dedo. (48px/48px de acordo com o google)
+// // Verifique se os links da página possuem o mínimo recomendado para telas utilizadas com o dedo. (48px/48px de acordo com o google)
 
-const links = document.querySelectorAll('href');
-console.log(links);
+// const links = document.querySelectorAll('a');
 
-// Se o browser for menor que 720px adicione a classe menu-mobile ao menu
+// links.forEach((link) => {
+//     if (link.offsetHeight >= 48)
+//     console.log("está no padrao google");
+//       else
+//         console.log("não está no padrão google");
+
+// });
+
+// // Se o browser for menor que 720px adicione a classe menu-mobile ao menu
+
+
+// const mobileVerify = document.querySelectorAll('nav');
+
+//   mobileVerify.forEach((menu) => {
+//     if (menu.clientWidth < 720)
+//     menu.classList.add('menu-mobile');
+//   });
+    
